@@ -1,10 +1,10 @@
 #!/bin/bash
+BUILD_DIR=`pwd`
+
 #build API et FRONT :
-cd api && docker build . -t doodlestudent-api
-cd ..
-cd front && docker build . -t doodlestudent-front
-cd ..
+cd $BUILD_DIR/api && docker build . -t doodlestudent-api
+cd $BUILD_DIR/front && docker build . -t doodlestudent-front
 
 #run les docker_compose :
-cd api && docker-compose up -d
-cd ../front && docker-compose up -d
+cd $BUILD_DIR/api && docker-compose up -d
+cd $BUILD_DIR/front && docker-compose up -d
