@@ -5,8 +5,8 @@ Objectif : mettre en place un chaine de déploiement automatisée d’une applic
 Tache 0 : 
 1. On a créé la machine virtuelle 148.60.11.220
 2. le sous domaine demandé est: m2crfc
-3. nom de domaine : http://m2crfc.diverse-team.fr/
-   /!\ malheureusement la VM a été desactivée avant la fin du TP
+3. nom de domaine : http://m2crfc.diverse-team.fr
+4. /!\ malheureusement la VM a été desactivée avant la fin du TP, le fichier se lance donc en localhost:8081
 
 Tache 1 : créer un ou plusieurs docker file(s) et un ou plusieurs docker compose(s) permettant de facilement déployer et configurer l’application
 
