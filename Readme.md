@@ -8,7 +8,7 @@ Tache 0 :
 3. nom de domaine : http://m2crfc.diverse-team.fr/
 
 Tache 1 : créer un ou plusieurs docker file(s) et un ou plusieurs docker compose(s) permettant de facilement déployer et configurer l’application
-1. installation de Docker dans la VM
-2. création d'un dockerfile dans API
-3. création d'un dockerfile dans front
-4. création d'un docker-compose.yml
+
+1. création d'un dockerfile dans API avec un uber-jar
+2. création d'un dockerfile dans front
+3. création d'un docker-compose.yml
