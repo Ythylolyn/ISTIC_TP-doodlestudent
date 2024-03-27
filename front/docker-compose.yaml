@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  front:
+    image: doodlestudent-front
+    ports:
+      - 8081:80
