@@ -4,7 +4,7 @@ Objectif : mettre en place un chaine de déploiement automatisée d’une applic
 
 Tache 0 : 
 Créer une machine virtuelle en ubuntu en local
-créer un serveur avec XAMPP (domaine : TP_DOCKER)
+créer un serveur avec XAMPP (domaine local : TP_DOCKER)
 
-Tache 1 :
-Créer un ou plusieurs docker file(s) et un ou plusieurs docker compose(s) permettant de facilement déployer et configurer l’application
+Tache 1 : créer un ou plusieurs docker file(s) et un ou plusieurs docker compose(s) permettant de facilement déployer et configurer l’application
+1. installation de Docker dans la VM
