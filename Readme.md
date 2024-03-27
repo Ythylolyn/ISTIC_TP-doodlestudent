@@ -13,4 +13,4 @@ Tache 1 : créer un ou plusieurs docker file(s) et un ou plusieurs docker compos
 1. création d'un dockerfile dans API avec un uber-jar
 2. création d'un dockerfile dans front
 3. création d'un docker-compose.yml
-4. mise en place des "build" dans les fichiers du git
+4. mise en place d'un script de lancement (commandes de build + run) : startup.sh
