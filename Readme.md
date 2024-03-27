@@ -4,7 +4,7 @@ Objectif : mettre en place un chaine de déploiement automatisée d’une applic
 
 Tache 0 : 
 1. On a créé la machine virtuelle 148.60.11.190
-2. L'adresse de notre machine est: http://tp2tlccr.istic.univ-rennes1.fr
+2. le sous domaine est: m2crfc
 
 Tache 1 : créer un ou plusieurs docker file(s) et un ou plusieurs docker compose(s) permettant de facilement déployer et configurer l’application
 1. installation de Docker dans la VM
