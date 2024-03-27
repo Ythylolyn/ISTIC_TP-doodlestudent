@@ -3,16 +3,16 @@
 # Stage 1 - BUILD
 FROM alpine:3.17 AS build-step
 RUN apk add --no-cache git maven && \
-    git clone https://github.com/WalfroyB/TLC_PROJET_BOUTIN.git && \
+    git clone https://github.com/Ythylolyn/ISTIC_TP-doodlestudent.git && \
     rm -rf TLC_PROJECT_BOUTIN/front
-WORKDIR /TLC_PROJET_BOUTIN/api
+WORKDIR /ISTIC_TP-doodlestudent/api
 RUN mvn clean package -Dquarkus.package.type=uber-jar
 
 # Stage 2 - RUN
 FROM alpine:3.17 AS prod
 RUN apk add --no-cache openjdk11
 WORKDIR /app
-COPY --from=build-step /TLC_PROJET_BOUTIN/api/target/tlcdemoApp-1.0.0-SNAPSHOT-runner.jar /app/
+COPY --from=build-step /ISTIC_TP-doodlestudent/api/target/tlcdemoApp-1.0.0-SNAPSHOT-runner.jar /app/
 CMD ["java", "-jar", "tlcdemoApp-1.0.0-SNAPSHOT-runner.jar"]
 
 CMD [ "/deployments/run-java.sh" ]
